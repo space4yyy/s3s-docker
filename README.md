@@ -3,13 +3,13 @@
 Docker image for [nxapi](https://github.com/samuelthomas2774/nxapi) and [s3s](https://github.com/frozenpandaman/s3s)
 
 ## Build
+
 s3s commit id is set to `732c91e`
 ```bash
 docker build -t space4y/nxapi-s3s:0.7.0 .
 ```
 
 ## Usage
-
 
 Note: Use the `-v` option to map the local directory where `gear_*.json` will be saved to the container's `/data` directory.
 
