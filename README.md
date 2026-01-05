@@ -1,6 +1,8 @@
 # s3s-docker
+[github](https://github.com/space4y/s3s-docker)
 
 Docker image for [nxapi](https://github.com/samuelthomas2774/nxapi) and [s3s](https://github.com/frozenpandaman/s3s)
+
 
 ## Build
 
