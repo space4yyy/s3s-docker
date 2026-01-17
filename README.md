@@ -16,7 +16,7 @@ docker build -t space4y/nxapi-s3s:0.7.0 .
 Note: Use the `-v` option to map the local directory where `gear_*.json` will be saved to the container's `/data` directory.
 
 ```bash
-docker run -v /path/to/data:/data --rm space4y/nxapi-s3s:0.7.0
+docker run --rm -it -v /path/to/data:/data space4y/nxapi-s3s:0.7.0
 ```
 
 The data directory should contain:
