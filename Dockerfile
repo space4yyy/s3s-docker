@@ -19,6 +19,8 @@ RUN git clone https://github.com/frozenpandaman/s3s.git . && \
 # Create data directory
 RUN mkdir /data
 
+ENV NXAPI_USER_AGENT=nxapi-s3s-docker
+
 # Copy and setup entrypoint
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
