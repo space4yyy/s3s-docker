@@ -29,11 +29,7 @@ docker run --rm -it -v /path/to/data:/data space4y/nxapi-s3s:0.7.0
 The container supports both English (default) and Chinese languages. Set the `S3S_LANG` environment variable to change the language:
 
 ```bash
-# English (default)
 docker run --rm -it -v /path/to/data:/data space4y/nxapi-s3s:0.7.0
-
-# 中文
-docker run --rm -it -v /path/to/data:/data -e S3S_LANG=zh space4y/nxapi-s3s:0.7.0
 ```
 
 ### Output

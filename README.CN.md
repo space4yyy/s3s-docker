@@ -29,10 +29,6 @@ docker run --rm -it -v /path/to/data:/data space4y/nxapi-s3s:0.7.0
 容器支持英文（默认）和中文两种语言。设置 `S3S_LANG` 环境变量来切换语言：
 
 ```bash
-# 英文（默认）
-docker run --rm -it -v /path/to/data:/data space4y/nxapi-s3s:0.7.0
-
-# 中文
 docker run --rm -it -v /path/to/data:/data -e S3S_LANG=zh space4y/nxapi-s3s:0.7.0
 ```
 
